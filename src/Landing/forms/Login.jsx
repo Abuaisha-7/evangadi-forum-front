@@ -132,7 +132,7 @@ const Login = () => {
                         </small>
                       </Col>
                       <Col sm={12}>
-                        <Nav.Link href="/">
+                        <Nav.Link href="/home">
                           <Button
                             type="submit"
                             variant="primary my-4 w-75"
