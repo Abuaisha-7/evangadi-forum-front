@@ -45,8 +45,9 @@ console.log(user)
     <AppState.Provider value={{user,setUser}}>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/ask-questions" element={<AskQuestion />} />
         <Route
