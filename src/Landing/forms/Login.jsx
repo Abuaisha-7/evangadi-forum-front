@@ -45,7 +45,7 @@ const Login = () => {
 
       localStorage.setItem("token", data.token);
       // alert("Login Successfully");
-      navigate("/");
+      navigate("/home");
       window.location.reload(false);
       // console.log(data)
     } catch (err) {
